@@ -3,17 +3,21 @@ module.exports = {
 		{
 			name: 'description',
 			message: "What's the description of your project?",
-			default: 'No description provided.',
+			type: 'text',
+			initial: 'No description provided.',
 		},
 		{
 			name: 'author',
+			type: 'text',
 			message: "What's the author of your project?",
-			default: 'No author provided.',
+			initial: 'No author provided.',
 		},
 		{
 			name: 'repository',
+			type: 'text',
 			message: "What's the repository of your project?",
-			default: 'No repository provided.',
+			initial: 'No repository provided.',
 		},
 	],
 };
+
